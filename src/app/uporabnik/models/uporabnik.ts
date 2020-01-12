@@ -1,6 +1,7 @@
 export class Uporabnik {
     id: number;
     ime: string;
-
-    // ostali atributi
+    priimek: string;
+    email: string;
+    username: string;
 }

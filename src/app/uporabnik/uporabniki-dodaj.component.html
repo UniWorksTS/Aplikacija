@@ -11,9 +11,15 @@
                 <td><input [(ngModel)]="uporabnik.priimek" id="priimek" name="priimek" required/></td>
             </tr>
             <tr>
-                <td><label for="uporabniskoIme">Uporabniško ime</label></td>
-                <td><input [(ngModel)]="uporabnik.uporabniskoIme" id="uporabniskoIme" name="uporabniskoIme" 
+                <td><label for="username">Uporabniško ime</label></td>
+                <td><input [(ngModel)]="uporabnik.username" id="username" name="username" 
                             required minlength="4"/>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail</label></td>
+                <td><input [(ngModel)]="uporabnik.email" id="email" name="email" 
+                            required />
                 </td>
             </tr>
         </table>
